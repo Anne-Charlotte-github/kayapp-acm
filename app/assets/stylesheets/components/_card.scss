@@ -1,0 +1,108 @@
+.card-product {
+  overflow: hidden;
+  height: 110px;
+  background: white;
+  display: flex;
+  border-radius: 8px;
+  border-color: $blue;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.card-product img {
+  width: 110px;
+}
+
+.card-infos {
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.infos-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.naming-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  margin-bottom: 5px;
+  h4 {
+    margin-bottom: 0px;
+  }
+}
+
+.country-div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: rgba(0,0,0,0.4);
+  border-radius: 5%;
+  p {
+    font-size: 14px;
+    margin: 0;
+  }
+}
+.flag{
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.alert-div {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alert-icons {
+  display: flex;
+  align-items: center;
+}
+
+
+.alert-level {
+  font-size: 16px;
+  color: $yellow;
+  margin-right: 10px;
+}
+
+.severity2 {
+  color: $red;
+}
+
+.circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.unsafe {
+  font-size: 20px;
+  color: $red;
+}
+
+.safe {
+  font-size: 20px;
+  color: $green;
+}
+
+.topo-level-content {
+  margin-bottom: 5px;
+}
+
+.topo-level {
+  color: black;
+  font-size: 18px;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 2px;
+  border-color: $blue;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);;
+  background-color: $white;
+}

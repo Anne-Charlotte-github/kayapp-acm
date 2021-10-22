@@ -1,0 +1,32 @@
+.navbar{
+
+}
+.navbar-lewagon {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.10);
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+.navbar-brand img {
+  width: 40px;
+}
+
+.nav-link {
+  color: $blue;
+  padding: 0px;
+}
+
+.disable {
+  display: none;
+}
